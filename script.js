@@ -1,0 +1,63 @@
+let count = document.getElementById("count");
+
+setTimeout(()=>{
+    count.innerHTML=`<p><b>10</b></p>`;
+    document.body.append(count)
+    console.log('10')
+    setTimeout(()=>{
+        count.innerHTML=`<p><b>9</b></p>`;
+        document.body.append(count)
+        console.log('9')
+        setTimeout(()=>{
+            count.innerHTML=`<p><b>8</b></p>`;
+            document.body.append(count)
+            console.log('8')
+            setTimeout(()=>{
+                count.innerHTML=`<p><b>7</b></p>`;
+                document.body.append(count)
+                console.log('7')
+                setTimeout(()=>{
+                    count.innerHTML=`<p><b>6</b></p>`;
+                    document.body.append(count)
+                    console.log('6')
+                    setTimeout(()=>{
+                        count.innerHTML=`<p><b>5</b></p>`;
+                        document.body.append(count)
+                        console.log('5')
+                        setTimeout(()=>{
+                            count.innerHTML=`<p><b>4</b></p>`;
+                            document.body.append(count)
+                            console.log('4')
+                            setTimeout(()=>{
+                                count.innerHTML=`<p><b>3</b></p>`;
+                                document.body.append(count)
+                                console.log('3')
+                                setTimeout(()=>{
+                                    count.innerHTML=`<p><b>2</b></p>`;
+                                    document.body.append(count)
+                                    console.log('2')
+                                    setTimeout(()=>{
+                                        count.innerHTML=`<p><b>1</b></p>`;
+                                        document.body.append(count)
+                                        console.log('1')
+                                        setTimeout(()=>{
+                                            count.innerHTML=`<p><b>0</b></p>`;
+                                            document.body.append(count)
+                                            console.log('0')
+                                            setTimeout(()=>{
+                                                count.innerHTML=`<h1>HAPPY INDEPENDENCE DAY</h1>`;                                           
+                                                document.body.append(count)
+                                                console.log('0')
+                                            },1000)
+                                        },1000)
+
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: pink;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 100px;
+    font-size: 300px;
+    
+}
